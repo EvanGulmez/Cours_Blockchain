@@ -58,7 +58,7 @@ contract TotallySpiesToken is ERC20Interface, SafeMath {
         name = "TotallySpies";
         symbol = "SPY";
         decimals = 18;
-        _totalSupply = 1999999;
+        _totalSupply = 100000000000000000000000000;
 
         balances[msg.sender] = _totalSupply;
         emit Transfer(address(0), msg.sender, _totalSupply);
