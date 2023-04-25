@@ -14,7 +14,7 @@ function Married(string memory NameFirst,string memory NameSecond) public {
 // Function that returns names and status of married
 function Status() public view returns (string memory) {
     // Concat the names of the married
-    string memory Marrystatus = string.concat(FullNameFirst, "married to",FullNameSecond);
+    string memory Marrystatus = string.concat(FullNameFirst," married to ",FullNameSecond);
 // Return the Marry Status
 return Marrystatus;
 }
